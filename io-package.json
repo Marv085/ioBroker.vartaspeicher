@@ -1,0 +1,80 @@
+{
+	"common": {
+		"name": "vartaspeicher",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "vartaspeicher",
+		"titleLang": {
+			"en": "vartaspeicher",
+			"de": "vartaspeicher",
+			"ru": "vartaspeicher",
+			"pt": "vartaspeicher",
+			"nl": "vartaspeicher",
+			"fr": "vartaspeicher",
+			"it": "vartaspeicher",
+			"es": "vartaspeicher",
+			"pl": "vartaspeicher",
+			"zh-cn": "vartaspeicher"
+		},
+		"desc": {
+			"en": "Adapter für Varta Element Speicher",
+			"de": "Adapter für Varta Element Speicher",
+			"ru": "Adapter für Varta Element Speicher",
+			"pt": "Adapter für Varta Element Speicher",
+			"nl": "Adapter für Varta Element Speicher",
+			"fr": "Adapter für Varta Element Speicher",
+			"it": "Adapter für Varta Element Speicher",
+			"es": "Adapter für Varta Element Speicher",
+			"pl": "Adapter für Varta Element Speicher",
+			"zh-cn": "Adapter für Varta Element Speicher"
+		},
+		"authors": [
+			"Marv085 <mmaile@aol.com>"
+		],
+		"keywords": [
+			"Photovoltaik",
+			"Solar",
+			"Speicher",
+			"Varta",
+			"Element"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "vartaspeicher.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Marv085/ioBroker.vartaspeicher/main/admin/vartaspeicher.png",
+		"readme": "https://github.com/Marv085/ioBroker.vartaspeicher/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

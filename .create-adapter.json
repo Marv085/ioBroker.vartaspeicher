@@ -1,0 +1,48 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "vartaspeicher",
+	"title": "vartaspeicher",
+	"description": "Adapter für Varta Element Speicher",
+	"keywords": [
+		"Photovoltaik",
+		"Solar",
+		"Speicher",
+		"Varta",
+		"Element"
+	],
+	"contributors": [
+		"Varta"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "energy",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Marv085",
+	"authorGithub": "Marv085",
+	"authorEmail": "mmaile@aol.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.0.2"
+}
